@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab Delta</title>
+  </head>
+
+  <body>
+    <h1>Build My Profile</h1>
+
+    <form id="profileForm">
+      <label for="nameInput">Name</label>
+      <input id="nameInput" type="text" required />
+      <br />
+
+      <label for="favoriteInput">Favorite</label>
+      <select id="favoriteInput" required>
+        <option value="">Select favorite!</option>
+      </select>
+      <br />
+
+      <label for="commentInput">Comments</label>
+      <textarea id="commentInput" required></textarea>
+      <br />
+
+      <button id="btnCreateProfile" type="submit">
+        Create My Profile
+      </button>
+    </form>
+
+    <section id="profileOutput">
+      <h2>Your Profile</h2>
+    </section>
+
+    <script src="assets/js/script.js" defer></script>
+  </body>
+</html>
